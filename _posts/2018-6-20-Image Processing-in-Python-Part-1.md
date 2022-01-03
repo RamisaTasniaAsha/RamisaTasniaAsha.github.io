@@ -17,23 +17,11 @@ Vector graphics are a somewhat different method of storing images that aim to av
 
 In an RGB image, each pixel is represented by three `8 bit` numbers associated with the values for **`Red, Green, Blue`** respectively. Eventually using a magnifying glass, if we zoom a picture, we'll see the picture is made up of tiny dots of little light or more specifically the pixels and what more interesting is to see that those tiny dots of little light are actually multiple tiny dots of little light of different colors which are nothing but **`Red, Green, Blue`** channels.
 
-Pixel together from far away, create an image and upfront they're just little lights that are **ON and OFF**. The combination of those creates images and basically what we see on the screen every single day.
-
-![Pixel Zooming](/images/zom_pic.gif)
-
-Every photograph, in digital form, is made up of pixels. They are the smallest unit of information that makes up a picture. Usually round or square, they are typically arranged in a 2-dimensional grid. 
-
-![RGB Explain](/images/rgb_explain.png)
-
-Now, if all three values are at full intensity, that means they're 255, it then shows as white and if all three colors are muted, or has the value of 0, the color shows as black. The combination of these three will, in turn, give us a specific shade of the pixel color. Since each number is an **8-bit** number, the values range from **`0-255`**. 
-
+Pixel together from far away, create an image and upfront they're just little lights that are **ON and OFF**. The combination of those creates images and basically what we see on the screen every single day. Every photograph, in digital form, is made up of pixels. They are the smallest unit of information that makes up a picture. Usually round or square, they are typically arranged in a 2-dimensional grid. Now, if all three values are at full intensity, that means they're 255, it then shows as white and if all three colors are muted, or has the value of 0, the color shows as black. The combination of these three will, in turn, give us a specific shade of the pixel color. Since each number is an **8-bit** number, the values range from **`0-255`**. 
 
 ![Dec to Bin](/images/dec_to_bin.png)
 
 Combination of these three color will posses tends to the highest value among them. Since each value can have 256 different intensity or brightness value, it makes **16.8** million total shades.
-
-![RGB_Gif](/images/rig_gif.gif)
-
 
 Here, we'll observe some of the following, which is very basic fundamental image data analysis with `Numpy` and some concern Python pacakges, like `imageio` , `matplotlib` etc.
 
@@ -53,12 +41,10 @@ Now let's load an image and observe its various properties in general.
 ```python
 import imageio
 import matplotlib.pyplot as plt
-%matplotlib inline
 
-if __name__ == '__main__':
-    pic = imageio.imread('F:/demo_2.jpg')
-    plt.figure(figsize = (15,15))
-    plt.imshow(pic)
+pic = imageio.imread('F:/demo_2.jpg')
+plt.figure(figsize = (15,15))
+plt.imshow(pic)
 ```
 
 <p align="left">
@@ -70,6 +56,7 @@ if __name__ == '__main__':
 ```python
 print('Type of the image : ' , type(pic))
 print()
+
 print('Shape of the image : {}'.format(pic.shape))
 print('Image Hight {}'.format(pic.shape[0]))
 print('Image Width {}'.format(pic.shape[1]))
