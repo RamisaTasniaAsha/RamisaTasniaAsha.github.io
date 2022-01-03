@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Model SubClassing and Custom Training : TensorFlow 2
+title: Model SubClassing and Custom Training TensorFlow 2
 excerpt: A comprehensive introduction of model subclassing and custom modeling in tensorflow 
 
 ---
