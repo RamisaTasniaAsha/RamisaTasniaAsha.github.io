@@ -132,7 +132,7 @@ plt.imshow(pic[ : , : , 0])
 plt.show()
 ```
 <p align="left">
-  <img width="460" height="297" src="/images/red_chn.JPG">
+  <img width="460" height="297" src="/images/red_chn.jpg">
 </p>
 
 ```python
@@ -144,7 +144,7 @@ plt.imshow(pic[ : , : , 1])
 plt.show()
 ```
 <p align="left">
-  <img width="460" height="297" src="/images/green_chn.JPG">
+  <img width="460" height="297" src="/images/green_chn.jpg">
 </p>
 
 ```python
@@ -156,7 +156,7 @@ plt.imshow(pic[ : , : , 2])
 plt.show()
 ```
 <p align="left">
-  <img width="460" height="297" src="/images/blue_chn.JPG">
+  <img width="460" height="297" src="/images/blue_chn.jpg">
 </p>
 
 
@@ -177,7 +177,7 @@ plt.imshow(pic)
 plt.show()
 ```
 <p align="left">
-  <img width="500" height="297" src="/images/R_chn.JPG">
+  <img width="500" height="297" src="/images/R_chn.jpg">
 </p>
 
 
@@ -188,7 +188,7 @@ plt.imshow(pic)
 plt.show()
 ```
 <p align="left">
-  <img width="500" height="297" src="/images/red_grn_chn.JPG">
+  <img width="500" height="297" src="/images/red_grn_chn.jpg">
 </p>
 
 
@@ -199,7 +199,7 @@ plt.imshow(pic)
 plt.show()
 ```
 <p align="left">
-  <img width="500" height="297" src="/images/three_chn.JPG">
+  <img width="500" height="297" src="/images/three_chn.jpg">
 </p>
 
 
@@ -213,7 +213,7 @@ plt.imshow(pic)
 plt.show()
 ```
 <p align="left">
-  <img width="500" height="297" src="/images/mix_all_chn.JPG">
+  <img width="500" height="297" src="/images/mix_all_chn.jpg">
 </p>
 
 
@@ -239,7 +239,7 @@ for c, ax in zip(range(3), ax):
     # display each channel
     ax.imshow(split_img)
 ```
-![red_chn](/images/split_chns.JPG)
+![red_chn](/images/split_chns.jpg)
 
 ## Greyscale<a class="anchor" id="3-bullet"></a>
 
@@ -267,7 +267,7 @@ plt.imshow(gray, cmap = plt.get_cmap(name = 'gray'))
 plt.show()
 ```
 <p align="left">
-  <img width="500" height="300" src="/images/gray_one.JPG">
+  <img width="500" height="300" src="/images/gray_one.jpg">
 </p>
 
 ---
@@ -317,7 +317,7 @@ print('Minimum RGB value in this image {}'.format(gray.min()))
 print('Random indexes [X,Y] : {}'.format(gray[100, 50]))
 ```
 <p align="left">
-  <img width="500" height="300" src="/images/gimp_gray_pic.JPG">
+  <img width="500" height="300" src="/images/gimp_gray_pic.jpg">
 </p>
 
 ```
@@ -347,7 +347,7 @@ plt.imshow(pic)
 plt.show()
 ```
 <p align="left">
-  <img width="500" height="407" src="/images/logic_op_pic.JPG">
+  <img width="500" height="407" src="/images/logic_op_pic.jpg">
 </p>
 
 
@@ -391,7 +391,7 @@ plt.imshow(pic)
 plt.show()
 ```
 <p align="left">
-  <img width="500" height="407" src="/images/radn_logic_pic.JPG">
+  <img width="500" height="407" src="/images/radn_logic_pic.jpg">
 </p>
 
 
@@ -459,7 +459,7 @@ if __name__ == '__main__':
     plt.show()
 ```
 <p align="left">
-  <img width="500" height="407" src="/images/mask_pic.JPG">
+  <img width="500" height="407" src="/images/mask_pic.jpg">
 </p>
 
 
@@ -476,7 +476,7 @@ plt.imshow(pic)
 plt.show()
 ```
 <p align="left">
-  <img width="600" height="450" src="/images/sat_img.JPG">
+  <img width="600" height="450" src="/images/sat_img.jpg">
 </p>
 
 Let's see some basic info of it.
