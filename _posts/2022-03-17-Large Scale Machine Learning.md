@@ -15,4 +15,4 @@ We need to be confident that the models were using are actually creating value.
 So we need tools which can measure the impacts that the models are creating. 
 Finally, we need to enable these models to serve potentially tens of thousands of requests per second often. 
 This means we need to optimize the models in terms of scalability and execution speed. 
-Now, each of these considerations must work together to ensure that there's consistent experience for the customer and the business.
+Now, each of these considerations must work together to ensure that there's consistent experience for the customer and the business..
