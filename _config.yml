@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: Mohammed Innat
+name: Ramisa Tasnia Asha
 
 # Short bio or description (displayed in the header)
-description: Machine Learning Practitioner
+description: Biomedical Engineering student
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
@@ -18,16 +18,16 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: innat1994@gmail.com
+  email: ramisaasha04@gmail.com
   facebook:
   flickr:
-  github: innat
+  github: RamisaTasniaAsha
   instagram:
-  linkedin: innat2k14
+  linkedin: ramisa-tasnia-asha
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: innat_2k14
-  stackoverflow: users/9215780/m-innat # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  twitter: 
+  stackoverflow: 
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
